@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 200px auto;
+    margin-left: 1000px auto;
+}
+
+form input, 
+form textarea, 
+form button {
+    display: block;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #13850f;
+    color: #f3f3f3;
+    border: none;
+    cursor: pointer;
+}
